@@ -26,6 +26,10 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <fileTypeFactory implementation="io.sweetiebird.idea.lumen.lang.LumenFileTypeFactory"/>
+    <lang.parserDefinition language="Lumen" implementationClass="io.sweetiebird.idea.lumen.parser.LumenParserDefinition"/>
+    <!--<lang.parserDefinition language="LumenScript" implementationClass="io.sweetiebird.idea.lumen.parser.LumenScriptParserDefinition"/>-->
+    <!--<lang.substitutor language="Lumen" implementationClass="io.sweetiebird.idea.lumen.lang.LumenLanguageSubstitutor"/>-->
+    <lang.ast.factory language="Lumen" implementationClass="io.sweetiebird.idea.lumen.parser.LumenASTFactory" />
   </extensions>
 
   <actions>
