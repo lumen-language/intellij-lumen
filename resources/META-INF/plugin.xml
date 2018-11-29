@@ -1,17 +1,17 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>io.sweetiebird.idea.lumen</id>
+  <name>Intellij-Lumen</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="shawnpresser@gmail.com" url="https://github.com/shawwn">Shawn Presser</vendor>
 
-  <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
-    ]]></description>
+  <description>Lumen Lisp</description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+  <change-notes>
+    <![CDATA[
+    <ul>
+      <li>initial support</li>
+    </ul>
+    <a href="https://github.com/lumen-language/intellij-lumen#change-log">Full change log...</a>
     ]]>
   </change-notes>
 
